@@ -1,5 +1,7 @@
 _site
 .vagrant
+*.log
+
 
 # Windows image file caches
 Thumbs.db
