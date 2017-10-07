@@ -1,0 +1,45 @@
+url: http://cakeoclock.eu
+baseurl: 
+
+# Site settings
+title: Cake o' Clock
+email: liana@cakeoclock.eu
+phone: "+356 9984 2600"
+description: "Home baked cakes for you!"
+
+# Customers
+people:
+- name: Amber
+  pic: amber.png
+  review: "You never fail to impress! Cakes tastes and looks amazing. Thanks Liana!"
+- name: Ludwig
+  pic: ludwig.png
+  review: "That was the best birthday cake I ever had! Awesome!"
+- name: Rahul
+  pic: rahul.png
+  review: "Rainbow cake was really delecious. Entire family loved it! Thank you Liana."
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+#  - title: twitter
+#    url: http://twitter.com/jekyllrb
+  - title: facebook
+    url:
+#  - title: stack-overflow
+#    url: http://stackoverflow.com/questions/tagged/jekyll
+#  - title: bitbucket 
+#    url: http://bitbucket.org/jekyll
+#  - title: github
+#    url: http://github.com/jekyll
+
+# Postal address (add as many lines as necessary)
+#address:
+#  - line: 3481 Melrose Place
+#  - line: Beverly Hills, CA 90210
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Serve to everyone
+host: 0.0.0.0

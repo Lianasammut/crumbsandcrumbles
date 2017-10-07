@@ -1,0 +1,14 @@
+---
+title: Rocky Road Cheesecake
+subtitle: An American Classic
+layout: default
+modal-id: rocky-road-cheesecake
+date: 2014-07-12
+img: rocky-road-cheesecake.jpg
+thumbnail: rocky-road-cheesecake-thumb.png
+alt: image-alt
+category: Specialities
+price: tbd
+description: Crispy biscuit base. Chocolate cheesecake. Marshmallows. Need I say more? 
+
+---
