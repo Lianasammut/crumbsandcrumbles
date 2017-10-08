@@ -9,6 +9,6 @@ thumbnail: girl-birthday-cake.jpg
 alt: image-alt
 category: Portfolio
 price: tbd
-description: TBD
+description: Perfect for celebrating her "Quccija". This particular example is a chocolate-chip cake with vanilla frosting. 
 
 ---

@@ -9,6 +9,6 @@ thumbnail: 7-cake.jpg
 alt: image-alt
 category: Portfolio
 price: tbd
-description: TBD
+description: A simple yet fun design ideal for anniversaries or birthdays. Your choice of flavouring and toppings. What's your number? :)
 
 ---

@@ -9,6 +9,6 @@ thumbnail: pineapple-cake-thumb.jpg
 alt: image-alt
 category: Portfolio
 price: tbd
-description: TBD
+description: A pineapple themed cake decorated with yummy frosting and your choice of flavour. I recommend rainbow cake for even more eye popping colour!
 
 ---
