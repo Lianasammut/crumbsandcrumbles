@@ -3,7 +3,7 @@ title: 7 Cake
 subtitle: Anniversary/Birthday Cake
 layout: default
 modal-id: 7-cake
-date: 2014-07-09
+date: 2017-09-30
 img: 7-cake.jpg
 thumbnail: 7-cake.jpg
 alt: image-alt

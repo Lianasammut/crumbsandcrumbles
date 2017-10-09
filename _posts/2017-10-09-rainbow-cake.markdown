@@ -3,7 +3,7 @@ title: Rainbow Cake
 subtitle: Colours!
 layout: default
 modal-id: rainbow-cake
-date: 2014-07-18
+date: 2017-10-09
 img: rainbow-cake.jpg
 thumbnail: rainbow-cake-thumb.png
 alt: image-alt

@@ -3,7 +3,7 @@ title: Frosted Lemon Cake
 subtitle: The Tangy One
 layout: default
 modal-id: frosted-lemon-cake
-date: 2014-07-16
+date: 2017-10-07
 img: frosted-lemon-cake.jpg
 thumbnail: frosted-lemon-cake-thumb.png
 alt: image-alt

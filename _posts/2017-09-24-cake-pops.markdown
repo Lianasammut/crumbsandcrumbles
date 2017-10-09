@@ -1,0 +1,14 @@
+---
+title: Cake Pops
+subtitle: The bite sized Treat
+layout: default
+modal-id: cake-pops
+date: 2017-09-24
+img: cake-pops.jpg
+thumbnail: cake-pops.jpg
+alt: image-alt
+category: Specialities
+price: tbd
+description: Beautiful miniature treats in a number of flavours and designs.
+
+---

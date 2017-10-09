@@ -3,7 +3,7 @@ title: Red Velvet Cake
 subtitle: The Classic Eye Catcher
 layout: default
 modal-id: red-velvet-cake
-date: 2014-07-13
+date: 2017-10-04
 img: red-velvet-cake.jpg
 thumbnail: red-velvet-cake-thumb.png
 alt: image-alt

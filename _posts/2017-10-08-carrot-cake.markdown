@@ -3,7 +3,7 @@ title: Carrot Cake
 subtitle: The Old Fashioned
 layout: default
 modal-id: carrot-cake
-date: 2014-07-17
+date: 2017-10-08
 img: carrot-cake.jpg
 thumbnail: carrot-cake-thumb.png
 alt: image-alt
