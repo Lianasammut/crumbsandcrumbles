@@ -5,7 +5,7 @@ layout: default
 modal-id: orange-cake
 date: 2017-09-28
 img: orange-cake.jpg
-thumbnail: orange-cake.jpg
+thumbnail: orange-cake-thumb.jpg
 alt: image-alt
 category: Specialities
 price: tbd

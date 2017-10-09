@@ -5,7 +5,7 @@ layout: default
 modal-id: russian-honey-layer-cake
 date: 2017-09-27
 img: russian-honey-layer-cake.jpg
-thumbnail: russian-honey-layer-cake.jpg
+thumbnail: russian-honey-layer-cake-thumb.jpg
 alt: image-alt
 category: Specialities
 price: tbd

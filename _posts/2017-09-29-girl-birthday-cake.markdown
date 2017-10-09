@@ -5,7 +5,7 @@ layout: default
 modal-id: girl-birthday-cake
 date: 2017-09-29
 img: girl-birthday-cake.jpg
-thumbnail: girl-birthday-cake.jpg
+thumbnail: girl-birthday-cake-thumb.jpg
 alt: image-alt
 category: Portfolio
 price: tbd
