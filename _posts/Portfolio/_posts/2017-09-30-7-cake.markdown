@@ -5,7 +5,7 @@ layout: default
 modal-id: 7-cake
 date: 2017-09-30
 img: 7-cake.jpg
-thumbnail: 7-cake-thumb.jpg
+thumbnail: 7-cake-thumb.png
 alt: image-alt
 category: Portfolio
 price: tbd

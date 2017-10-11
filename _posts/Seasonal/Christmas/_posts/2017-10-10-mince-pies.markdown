@@ -5,7 +5,7 @@ layout: default
 modal-id: mince-pies
 date: 2017-10-10
 img: mince-pies.jpg
-thumbnail: mince-pies-thumb.jpg
+thumbnail: mince-pies-thumb.png
 alt: image-alt
 category: Christmas
 price: tbd

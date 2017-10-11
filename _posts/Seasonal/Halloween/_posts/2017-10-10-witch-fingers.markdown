@@ -5,7 +5,7 @@ layout: default
 modal-id: witch-fingers
 date: 2017-10-10
 img: witch-fingers.jpg
-thumbnail: witch-fingers-thumb.jpg
+thumbnail: witch-fingers-thumb.png
 alt: image-alt
 category: Halloween
 price: tbd

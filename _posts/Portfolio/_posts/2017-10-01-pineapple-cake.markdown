@@ -5,7 +5,7 @@ layout: default
 modal-id: pineapple-cake
 date: 2017-10-01
 img: pineapple-cake.jpg
-thumbnail: pineapple-cake-thumb.jpg
+thumbnail: pineapple-cake-thumb.png
 alt: image-alt
 category: Portfolio
 price: tbd
