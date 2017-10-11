@@ -1,6 +1,7 @@
- <!-- Specialities Modals -->
- {% for post in site.categories.Specialities %}
-    <div class="specialities-modal modal fade" id="specialitiesModal{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+ <!-- Seasonal Modals -->
+ {% if site.season %}
+ {% for post in site.categories.[site.season] %}
+    <div class="seasonal-modal modal fade" id="seasonalModal{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -14,7 +15,7 @@
                         <div class="modal-body">
                             <h2>{{ post.title }}</h2>
                             <hr class="star-primary">
-                            <img src="img/posts/Specialities/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <img src="img/posts/Seasonal/{{site.season}}/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                             <p>{{ post.description }}</p>
                             <ul class="list-inline item-details">
                                 <li>Category:
@@ -46,3 +47,4 @@
         </div>
     </div>
 {% endfor %}
+{% endif %}

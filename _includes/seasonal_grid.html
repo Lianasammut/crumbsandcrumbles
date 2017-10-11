@@ -1,0 +1,32 @@
+<!-- Seasonal Grid Section -->
+{% if site.season %}
+<section id="seasonal" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">{{site.season}}</h2>
+                <h3 class="section-subheading text-muted">{{site.seasonMessage}}</h3>
+            </div>
+        </div>
+        <div class="row">
+
+            {% for post in site.categories.[site.season] %}
+            <div class="col-md-4 col-sm-6 seasonal-item">
+                <a href="#seasonalModal{{ post.modal-id }}" class="seasonal-link" data-toggle="modal">
+                    <div class="seasonal-hover">
+                        <div class="seasonal-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="img/posts/seasonal/{{site.season}}/{{ post.thumbnail }}" class="img-responsive img-centered seasonal-img" alt="">
+                </a>
+                <div class="seasonal-caption">
+                    <h4>{{ post.title }}</h4>
+                    <p class="text-muted">{{ post.subtitle }}</p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endif %}
