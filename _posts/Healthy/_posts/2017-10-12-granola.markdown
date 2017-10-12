@@ -1,0 +1,14 @@
+---
+title: Homemade Granola
+subtitle: Crunchy, Fruity, Delicious
+layout: default
+modal-id: granola
+date: 2017-10-12
+img: granola.jpg
+thumbnail: granola-thumb.png
+alt: image-alt
+category: Healthy
+price: tbd
+description: Delicious homemade granola made especially for you to your taste and specification. Sweetened only with natural sweeteners and no refined sugar.
+
+---
