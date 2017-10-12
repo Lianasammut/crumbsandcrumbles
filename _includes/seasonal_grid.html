@@ -1,9 +1,8 @@
 <!-- Seasonal Grid Section -->
 {% if site.season %}
+<section id="seasonal" class="bg-light-gray">       
 {% if site.seasonBackground %}
 <section id="seasonal-with-background" class="bg-light-gray" style="background-image: url('/img/backgrounds/Seasonal/{{site.season}}/{{site.seasonBackground}}')">
-{% else %}
-<section id="seasonal" class="bg-light-gray"></section>
 {% endif %}
     <div class="container">
         <div class="row">
@@ -32,5 +31,8 @@
             {% endfor %}
         </div>
     </div>
+{% if site.seasonBackground %}
+</section>
+{% endif %}   
 </section>
 {% endif %}

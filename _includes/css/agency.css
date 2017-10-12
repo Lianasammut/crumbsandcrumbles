@@ -1162,23 +1162,24 @@ ul.social-buttons li a:active {
     transform: rotate(90deg);
 }
 
-section#seasonal-with-background {
+section#seasonal #seasonal-with-background {
     background-color: #222;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-section#seasonal-with-background .section-heading {
+section#seasonal #seasonal-with-background .section-heading {
     color: #fff;
 }
 
-section#seasonal-with-background .section-subheading {
+section#seasonal #seasonal-with-background .section-subheading {
     color: #fff;
 }
 
-section#seasonal-with-background .seasonal-caption {
+section#seasonal #seasonal-with-background .seasonal-caption {
     color: #fff;
+    background-color: transparent;
 }
 
 section#seasonal-with-background .text-muted {
