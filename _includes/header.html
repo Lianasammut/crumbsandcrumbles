@@ -22,9 +22,15 @@
                     <a class="page-scroll" href="#services">Services</a>
                 </li>
                 {% if site.season %}
+                {% if site.seasonBackground %}
+                <li>
+                    <a class="page-scroll" href="#seasonal-with-background">Seasonal</a>
+                </li>
+                {% else %}
                 <li>
                     <a class="page-scroll" href="#seasonal">Seasonal</a>
                 </li>
+                {% endif %}               
                 {% endif %}
                 <li>
                     <a class="page-scroll" href="#specialities">Specialities</a>

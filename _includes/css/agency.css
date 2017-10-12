@@ -272,7 +272,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg.png');
+    background-image: url('{{ site.baseurl }}/img/backgrounds/header-bg.png');
     background-position: center bottom;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -834,7 +834,7 @@ section#contact .contact-heading {
 /*
 section#contact {
     background-color: #222;
-    background-image: url('{{ site.baseurl }}/img/tea-party.jpg');
+    background-image: url('{{ site.baseurl }}/img/backgrounds/tea-party.jpg');
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -1160,6 +1160,29 @@ ul.social-buttons li a:active {
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+}
+
+section#seasonal-with-background {
+    background-color: #222;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section#seasonal-with-background .section-heading {
+    color: #fff;
+}
+
+section#seasonal-with-background .section-subheading {
+    color: #fff;
+}
+
+section#seasonal-with-background .seasonal-caption {
+    color: #fff;
+}
+
+section#seasonal-with-background .text-muted {
+    color: #fff;
 }
 
 ::-moz-selection {
