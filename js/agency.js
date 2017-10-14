@@ -38,6 +38,13 @@ $('div.modal').on('show.bs.modal', function () {
     // send event to google analytics
     var productType = modal.classList[0].split('-')[0];
     var productName = $(modal).find('.modal-body').children('h2').text();
+    var fakePageUrl = "/" + modal.id.replace("Modal", "/") + ".html";
+    //$("a[href='#specialitiesModalchocolate-cake']").focus().click()
+
+    // send page change event
+    gtag('config', 'UA-108057956-1', {'page_path': fakePageUrl});
+
+    // send generic event
     ga('send', {
         hitType: 'event',
         eventCategory: productType,
@@ -47,6 +54,10 @@ $('div.modal').on('show.bs.modal', function () {
 });
 
 $("a.page-scroll").click(function() {
+    // send page change event
+    var fakePageUrl = $(this).attr('href').replace("#","/").replace("-with-background","");
+    gtag('config', 'UA-108057956-1', {'page_path': fakePageUrl});
+
     // send event to google analytics
     ga('send', {
         hitType: 'event',
