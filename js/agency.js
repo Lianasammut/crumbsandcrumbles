@@ -25,6 +25,14 @@ $('.navbar-collapse ul li a').click(function () {
     $('.navbar-toggle:visible').click();
 });
 
+// if window has a FRAGMENT on-load
+if (window.location.href.indexOf("#")) {
+    // get the fragmentId and load it
+    var modalId = window.location.href.replace(window.location.origin, "").replace("/", "");
+    $("a[href='" + modalId + "']").focus().click();
+}
+
+// when a modal is displayed
 $('div.modal').on('show.bs.modal', function () {
     var modal = this;
     var hash = modal.id;
@@ -39,10 +47,9 @@ $('div.modal').on('show.bs.modal', function () {
     var productType = modal.classList[0].split('-')[0];
     var productName = $(modal).find('.modal-body').children('h2').text();
     var fakePageUrl = "/" + modal.id.replace("Modal", "/") + ".html";
-    //$("a[href='#specialitiesModalchocolate-cake']").focus().click()
 
     // send page change event
-    gtag('config', 'UA-108057956-1', {'page_path': fakePageUrl});
+    gtag('config', 'UA-108057956-1', { 'page_path': fakePageUrl });
 
     // send generic event
     ga('send', {
@@ -53,10 +60,11 @@ $('div.modal').on('show.bs.modal', function () {
     });
 });
 
-$("a.page-scroll").click(function() {
+// on click on Navi
+$("a.page-scroll").click(function () {
     // send page change event
-    var fakePageUrl = $(this).attr('href').replace("#","/").replace("-with-background","");
-    gtag('config', 'UA-108057956-1', {'page_path': fakePageUrl});
+    var fakePageUrl = $(this).attr('href').replace("#", "/").replace("-with-background", "");
+    gtag('config', 'UA-108057956-1', { 'page_path': fakePageUrl });
 
     // send event to google analytics
     ga('send', {
@@ -66,3 +74,21 @@ $("a.page-scroll").click(function() {
         eventLabel: $(this).attr('href')
     });
 });
+
+// on modal close
+$('div.modal').on('hide.bs.modal', function () {
+    // clean address bar
+    history.replaceState(null, null, "/");
+    // notify GA
+    gtag('config', 'UA-108057956-1', { 'page_path': '/' });
+
+    // send event to google analytics
+    ga('send', {
+        hitType: 'event',
+        eventCategory: 'Navigation',
+        eventAction: 'view',
+        eventLabel: '/'
+    });
+});
+
+
