@@ -25,12 +25,16 @@ $('.navbar-collapse ul li a').click(function () {
     $('.navbar-toggle:visible').click();
 });
 
+
 // if window has a FRAGMENT on-load
 if (window.location.href.indexOf("#")) {
     // get the fragmentId and load it
     var modalId = window.location.href.replace(window.location.origin, "").replace("/", "");
     $("a[href='" + modalId + "']").focus().click();
 }
+
+// the current section being viewed before opening a modal
+var currentSection;
 
 // when a modal is displayed
 $('div.modal').on('show.bs.modal', function () {
@@ -46,10 +50,10 @@ $('div.modal').on('show.bs.modal', function () {
     // send event to google analytics
     var productType = modal.classList[0].split('-')[0];
     var productName = $(modal).find('.modal-body').children('h2').text();
-    var fakePageUrl = "/" + modal.id.replace("Modal", "/") + ".html";
+    var pageUrl = "#" + modal.id;
 
     // send page change event
-    gtag('config', 'UA-108057956-1', { 'page_path': fakePageUrl });
+    gtag('config', 'UA-108057956-1', { 'page_path': pageUrl });
 
     // send generic event
     ga('send', {
@@ -58,13 +62,16 @@ $('div.modal').on('show.bs.modal', function () {
         eventAction: 'view',
         eventLabel: productName
     });
+
+    // update address bar
+    //history.replaceState(null, null, pageUrl);
 });
 
 // on click on Navi
-$("a.page-scroll").click(function () {
+$(".nav").find("a.page-scroll").click(function () {
     // send page change event
-    var fakePageUrl = $(this).attr('href').replace("#", "/").replace("-with-background", "");
-    gtag('config', 'UA-108057956-1', { 'page_path': fakePageUrl });
+    var pageUrl = $(this).attr('href').replace("-with-background", "");
+    gtag('config', 'UA-108057956-1', { 'page_path': pageUrl });
 
     // send event to google analytics
     ga('send', {
@@ -73,22 +80,54 @@ $("a.page-scroll").click(function () {
         eventAction: 'view',
         eventLabel: $(this).attr('href')
     });
+
+    // update address bar
+    history.replaceState(null, null, pageUrl);
+    
+    // store current section
+    currentSection = pageUrl;
 });
 
-// on modal close
-$('div.modal').on('hide.bs.modal', function () {
-    // clean address bar
-    history.replaceState(null, null, "/");
-    // notify GA
-    gtag('config', 'UA-108057956-1', { 'page_path': '/' });
+// on NAV scroll
+$('body').on('activate.bs.scrollspy', function () {
+    var location = $("ul.nav").children("li[class='active']").children("a").attr('href')
+    if (location) {
+        location = location.replace("-with-background", "");
+    } else {
+        // root
+        location = "/";
+    }
+
+    var pageUrl = location;
+    gtag('config', 'UA-108057956-1', { 'page_path': pageUrl });
 
     // send event to google analytics
     ga('send', {
         hitType: 'event',
         eventCategory: 'Navigation',
         eventAction: 'view',
-        eventLabel: '/'
+        eventLabel: $(this).attr('href')
     });
+
+    // update address bar
+    history.replaceState(null, null, pageUrl);
+    
+    // store current section
+    currentSection = pageUrl;
 });
 
+// on modal close
+$('div.modal').on('hide.bs.modal', function () {
+    // clean address bar
+    history.replaceState(null, null, currentSection);
+    // notify GA
+    gtag('config', 'UA-108057956-1', { 'page_path': currentSection });
 
+    // send event to google analytics
+    ga('send', {
+        hitType: 'event',
+        eventCategory: 'Navigation',
+        eventAction: 'view',
+        eventLabel: currentSection
+    });
+});
