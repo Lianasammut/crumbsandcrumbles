@@ -1,0 +1,14 @@
+---
+title: Cupcakes
+subtitle: Dainty and Just for You
+layout: default
+modal-id: cupcakes
+date: 2017-11-05
+img: cupcakes.jpg
+thumbnail: cupcakes-thumb.png
+alt: image-alt
+category: Specialities
+price: tbd
+description: Delicious, beautiful and dainty handmade cupcakes. With your choice of flavour, frosting and toppings. Ideal for any occasion.
+
+---
