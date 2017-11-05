@@ -1,0 +1,14 @@
+---
+title: November Bones
+subtitle: Traditional Almond Treat
+layout: default
+modal-id: bones
+date: 2017-11-05
+img: bones.jpg
+thumbnail: bones-thumb.png
+alt: image-alt
+category: November
+price: tbd
+description: Traditional Maltese almond based treat served in November. Available with a traditional icing glaze or your own choice of topping for a modern twist on this classic.
+
+---
