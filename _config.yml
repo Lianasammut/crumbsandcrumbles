@@ -6,9 +6,9 @@ title: Cake o' Clock
 email: liana@cakeoclock.eu
 phone: "+356 9984 2600"
 description: Home baked cakes for you!
-season: November
+season: Fall
 seasonMessage: Fall is here! Time for traditional almond treats! 
-seasonBackground: november-background.jpg
+seasonBackground: fall-background.jpg
 
 # Customers
 people:
