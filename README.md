@@ -17,6 +17,8 @@ The following settings are available under *_config.yml*
 - **season**: To activate a season, enter the desired CATEGORY name here. If no season is set, the SEASONAL Category is not displayed
 - **seasonMessage**: This will be displayed - under the main season header
 - **seasonBackground**: If set, the chosen image will be used as a background for the season section and all text will be switched to WHITE for visibility. (place image under /img/backgrounds/Seasonal/SEASON_NAME)
+- **tickerMessage**: If set, this message is displayed at the bottom as a News Ticker.
+- **tickerBackground**: If set, the chosen image will be used as a background for the News Ticker. (place image under /img/ticker)
 - **people**: List of testimonials
     - name: Client Name
     - pic: Client pic (place under /img/testimonials)
