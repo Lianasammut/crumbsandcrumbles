@@ -55,3 +55,38 @@ The following parameters are available:
 - **availableFrom**: If set, a FROM date is displayed for when orders are accepted
 - **availableTo**: If set, an END date is displayed for when orders are accepted
 - **description**: Product description
+
+Local Deployment
+----------------
+
+This website has been created using [Jekyll](https://jekyllrb.com/) and thus requires Jekyll and its dependencies in order to be built.
+
+To facilitate this a Vagrantfile is included which can be used to spin up a VM with all the required dependencies. The Vagrantfile assumes that [Vagrant](https://www.vagrantup.com/) and [VirtualBox](https://www.virtualbox.org/) are already installed.
+
+To start the VM, go to your working directory and run:
+
+{% codeblock %}
+vagrant up
+{% endcodeblock %}
+
+This will download any required OS images if not already present and start the VM for you.
+
+Once the VM is up, log into it via:
+
+{% codeblock %}
+vagrant ssh
+{% endcodeblock %}
+
+Now that we are logged in, go to the /vagrant directory:
+
+{% codeblock %}
+cd /vagrant
+{% endcodeblock %}
+
+This directory will be a mount of the location of your Vagrantfile, i.e. your working directory, meaning that the project files will also be mounted here.
+
+Now start serving the website locally using jekyll:
+
+{% codeblock %}
+jekyll serve
+{% endcodeblock %}
