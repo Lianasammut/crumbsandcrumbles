@@ -9,6 +9,6 @@ thumbnail: granola-bars-thumb.png
 alt: image-alt
 category: Healthy
 price: tbd
-description: Homemade nutty and fruity granola bars sweetened only with natural sweeteners and no refined sugar. 
+description: Homemade granola bars packed with nuts, dried fruit and cereal.  Sweetened only with natural sweeteners and no refined sugar. 
 
 ---
