@@ -65,28 +65,20 @@ To facilitate this a Vagrantfile is included which can be used to spin up a VM w
 
 To start the VM, go to your working directory and run:
 
-{% codeblock %}
-vagrant up
-{% endcodeblock %}
+`vagrant up`
 
 This will download any required OS images if not already present and start the VM for you.
 
 Once the VM is up, log into it via:
 
-{% codeblock %}
-vagrant ssh
-{% endcodeblock %}
+`vagrant ssh`
 
 Now that we are logged in, go to the /vagrant directory:
 
-{% codeblock %}
-cd /vagrant
-{% endcodeblock %}
+`cd /vagrant`
 
 This directory will be a mount of the location of your Vagrantfile, i.e. your working directory, meaning that the project files will also be mounted here.
 
 Now start serving the website locally using jekyll:
 
-{% codeblock %}
-jekyll serve
-{% endcodeblock %}
+`jekyll serve` 
