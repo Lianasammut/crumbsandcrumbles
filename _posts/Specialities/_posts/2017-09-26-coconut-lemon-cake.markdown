@@ -9,6 +9,6 @@ thumbnail: coconut-lemon-cake-thumb.jpg
 alt: image-alt
 category: Specialities
 price: tbd
-description: Coconut cake with a tangy lemon buttercream. Covered in sweet, roasted flaked coconut.
+description: Coconut cake with a tangy lemon curd filling. Covered in sweet, roasted flaked coconut.
 
 ---

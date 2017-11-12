@@ -9,6 +9,6 @@ thumbnail: rocky-road-cheesecake-thumb.png
 alt: image-alt
 category: Specialities
 price: tbd
-description: Crispy biscuit base. Chocolate cheesecake. Marshmallows. Need I say more? 
+description: Crispy Oreo biscuit base. Vanilla cheesecake. Peanuts. Marshmallows. Need I say more? 
 
 ---

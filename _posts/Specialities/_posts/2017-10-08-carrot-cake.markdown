@@ -9,6 +9,6 @@ thumbnail: carrot-cake-thumb.png
 alt: image-alt
 category: Specialities
 price: tbd
-description: An old-fashioned favorite made with fresh carrots and toasted walnuts, filled and frosted with cream cheese buttercream and sprinkled with orange zest between layers. Finished with toasted walnuts and candied carrot peel.
+description: An old-fashioned favorite made with fresh carrots and toasted walnuts, filled and frosted with cream cheese buttercream . We recommend finishing it off with some toasted walnuts.
 
 ---

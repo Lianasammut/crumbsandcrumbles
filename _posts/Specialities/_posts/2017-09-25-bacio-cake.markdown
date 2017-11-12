@@ -9,6 +9,6 @@ thumbnail: bacio-cake-thumb.png
 alt: image-alt
 category: Specialities
 price: tbd
-description: A luscious chocolate cake smothered in chocolate and roasted hazelnuts.
+description: A luscious chocolate and hazelnut cake smothered in a rich and indulgent dark chocolate ganache. Topped off with roasted hazelnuts.
 
 ---

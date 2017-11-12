@@ -9,6 +9,6 @@ thumbnail: red-velvet-cake-thumb.png
 alt: image-alt
 category: Specialities
 price: tbd
-description: Three moist layers of stunning Red Velvet filled and topped silky cream cheese icing and finished with melt-in-your-mouth white and dark chocolate shavings and white chocolate drizzle; this cake is sure to be your new favourite.
+description: Two moist layers of stunning Red Velvet filled and topped with silky ermine icing and finished with melt-in-your-mouth red sprinkles; this cake is sure to be your new favourite.
 
 ---

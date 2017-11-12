@@ -9,6 +9,6 @@ thumbnail: frosted-lemon-cake-thumb.png
 alt: image-alt
 category: Specialities
 price: tbd
-description: A deliciously moist lemon cake using both the zest and juice of the lemons to give it a real kick! Topped off with a lemon glaze.
+description: A deliciously moist lemon cake using both the zest and juice of the lemons to give it a real kick! Topped off with a simple lemon glaze.
 
 ---

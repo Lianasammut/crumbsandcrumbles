@@ -9,6 +9,6 @@ thumbnail: hazelnut-bars-thumb.jpg
 alt: image-alt
 category: Specialities
 price: tbd
-description: Yummy hazelnut bars frosted with a dark chocolate ganache.
+description: Yummy hazelnut bars frosted with a delicious dark chocolate ganache.
 
 ---
