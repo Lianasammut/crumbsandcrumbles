@@ -1,9 +1,11 @@
-url: http://cakeoclock.eu
+url: http://crumbsandcrumbles.eu
 baseurl: 
 
 # Site settings
-title: Cake o' Clock
-email: liana@cakeoclock.eu
+title: Crumbs & Crumbles
+logo: logo.png
+slogan: In Love with Cake
+email: liana@crumbsandcrumbles.eu
 phone: "+356 9984 2600"
 description: Home baked cakes for you!
 season: Fall

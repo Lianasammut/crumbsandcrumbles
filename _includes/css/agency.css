@@ -304,6 +304,20 @@ header .intro-text .intro-heading {
 }
 
 @media(min-width:768px) {
+    .site-logo {
+        border-color: transparent;
+        background-image: url(/img/logos/{{site.logo}});
+        background-repeat:no-repeat;
+        background-size:contain;
+    
+        position: absolute;
+        top: -20px;
+        left: -20px;
+        width: 200px;
+        height: 200px;
+        z-index: 100;
+    }    
+
     header .intro-text {
         padding-top: 100px;
         padding-bottom: 200px;

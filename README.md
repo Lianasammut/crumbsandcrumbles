@@ -1,5 +1,5 @@
-Cake o' Clock
-============
+Crumbs & Crumbles
+=================
 
 Created using [Jekyll](https://jekyllrb.com/) and the [Agency Jekyll theme](https://github.com/y7kim/agency-jekyll-theme).
 
@@ -11,6 +11,8 @@ The following settings are available under *_config.yml*
 - **url**: Website URL
 - **baseurl**: Use if baseurl is not /
 - **title**: Website title
+- **logo**: Logo Image (place under /img/logo)
+- **slogan**: Company slogan
 - **email**: Contact email address
 - **phone**: Contact phone number
 - **description**: Website description
@@ -82,3 +84,8 @@ This directory will be a mount of the location of your Vagrantfile, i.e. your wo
 Now start serving the website locally using jekyll:
 
 `jekyll serve` 
+
+Logo
+----
+
+https://editor.freelogodesign.org/?lang=EN&logo=58733be0-b8c5-4c94-acfc-11e715a7eb2d
