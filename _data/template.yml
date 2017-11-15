@@ -1,9 +1,9 @@
 # Color settings (hex-codes without the leading hash-tag)
 color:
-#934404
-  #primary: fec503
-  primary: FF4A83
-  #secondary: fec503   
+  #YELLOW -> fec503
+  #PINK -> FF4A83
+  #GREEN -> becfc7
+  primary: 6dbf92
   secondary: FF4A83 
   secondary-dark: 333
   muted: 777
