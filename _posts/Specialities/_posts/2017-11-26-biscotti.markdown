@@ -1,0 +1,14 @@
+---
+title: Biscotti
+subtitle: Perfect tea time snack
+layout: default
+modal-id: biscotti
+date: 2017-11-26
+img: biscotti.jpg
+thumbnail: biscotti-thumb.png
+alt: image-alt
+category: Specialities
+price: tbd
+description: Crunchy italian twice baked biscuits, studded with nuts and chocolate; perfectly paired with a cup of tea.
+
+---
