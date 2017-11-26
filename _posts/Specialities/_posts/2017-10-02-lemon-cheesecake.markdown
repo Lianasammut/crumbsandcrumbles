@@ -4,7 +4,7 @@ subtitle: The Classic Cheesecake
 layout: default
 modal-id: lemon-cheesecake
 date: 2017-10-02
-img: lemon-cheesecake-thumb.png
+img: lemon-cheesecake.jpg
 thumbnail: lemon-cheesecake-thumb.png
 alt: image-alt
 category: Specialities
