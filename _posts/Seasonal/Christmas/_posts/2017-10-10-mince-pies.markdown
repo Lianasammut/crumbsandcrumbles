@@ -10,7 +10,7 @@ alt: image-alt
 category: Christmas
 price: tbd
 availableFrom: 
-availableTo: December 10
+availableTo: 
 description: A crumbly, fruity, Christmas classic. Made from homemade mince that has been marinated for 1 month for that extra special taste.
 
 ---
