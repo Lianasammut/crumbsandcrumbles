@@ -34,7 +34,7 @@
                                     </strong>
                                 </li>
                                 {% endif %}
-                                {% if post.price or post.price contains "tbd" %}
+                                {% if post.price and post.price != "tbd" %}
                                 <li>Price:
                                         <strong><a href="#">{{ post.price }}</a>
                                         </strong>
