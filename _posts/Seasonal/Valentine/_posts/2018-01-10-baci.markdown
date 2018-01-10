@@ -1,0 +1,14 @@
+---
+title: Baci
+subtitle: Lovers' Favourite Chocolate
+layout: default
+modal-id: baci
+date: 2018-01-10
+img: baci.jpg
+thumbnail: baci-thumb.png
+alt: image-alt
+category: Valentine
+price: tbd
+description: Fine dark chocolate filled with a chocolate-hazelnut cream center and a whole hazelnut.
+
+---
