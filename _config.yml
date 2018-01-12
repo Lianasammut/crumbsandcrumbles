@@ -50,3 +50,7 @@ permalink: pretty
 
 # Serve to everyone
 host: 0.0.0.0
+
+# Plugin section
+plugins:
+  - jekyll-seo-tag
