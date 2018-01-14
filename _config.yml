@@ -31,7 +31,7 @@ social:
 #  - title: twitter
 #    url: http://twitter.com/jekyllrb
   - title: facebook
-    url:
+    url: https://www.facebook.com/crumbsandcrumblesmalta/
 #  - title: stack-overflow
 #    url: http://stackoverflow.com/questions/tagged/jekyll
 #  - title: bitbucket 
@@ -50,3 +50,11 @@ permalink: pretty
 
 # Serve to everyone
 host: 0.0.0.0
+
+# Plugin section
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap  
+
+# Locale
+lang: en_UK
