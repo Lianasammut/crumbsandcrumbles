@@ -1,0 +1,14 @@
+---
+title: Cat Cake
+subtitle: For all the cat lovers
+layout: default
+modal-id: cat-cake
+date: 2018-01-27
+img: cat-cake.jpg
+thumbnail: cat-cake-thumb.png
+alt: image-alt
+category: Portfolio
+price: tbd
+description: Adorable cat cake composed of 2 tiers, with a simple silhouette face and gold glitter cat ears.  This specific example was a red velvet cake frosted with black tinted buttercream.      
+
+---
