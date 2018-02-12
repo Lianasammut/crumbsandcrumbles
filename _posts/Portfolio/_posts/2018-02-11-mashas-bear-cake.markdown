@@ -1,14 +1,14 @@
 ---
-title: Hot Air Balloon Cupcakes
-subtitle: Up, up and away!
+title: Masha's Bear Cake
+subtitle: For all the Masha and the Bear fans
 layout: default
-modal-id: hot-air-ballon-cupcakes
-date: 2018-02-07
-img: hot-air-balloon-cupcakes.jpg
-thumbnail: hot-air-balloon-cupcakes-thumb.png
+modal-id: mashas-bear-cake
+date: 2018-02-11
+img: mashas-bear-cake.jpg
+thumbnail: mashas-bear-cake-thumb.png
 alt: image-alt
 category: Portfolio
 price: tbd
-description: Multicolored fondant-covered cupcakes form a gorgeous balloon cake, with a modeled teddy bear in a basket below.     
+description: This cake is a vanilla flavoured checkerboard cake, frosted and decorated with green buttercream.  The fence and bear are made of sugar paste.      
 
 ---
