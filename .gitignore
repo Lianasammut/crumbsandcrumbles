@@ -41,3 +41,4 @@ Icon
 
 # Gem build artifacts
 Gemfile.lock
+.vscode/settings.json
