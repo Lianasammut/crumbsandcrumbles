@@ -1,0 +1,14 @@
+---
+title: Figolli
+subtitle: Easter's Highlight
+layout: default
+modal-id: figolli
+date: 2018-03-18
+img: figolli.jpg
+thumbnail: figolli-thumb.png
+alt: image-alt
+category: Easter
+price: tbd
+description: Delicious traditional Maltese sweets served for Easter consisting of an almond filling sandwiched between a biscuit pastry.  They are then decorated with chocolate or icing according to ones tastes.
+
+---
