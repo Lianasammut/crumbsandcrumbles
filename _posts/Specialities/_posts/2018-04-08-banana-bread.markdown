@@ -5,7 +5,7 @@ layout: default
 modal-id: banana-bread
 date: 2018-04-08
 img: banana-bread.jpg
-thumbnail: banana-bread-thumb.png
+thumbnail: banana-bread-thumb.jpg
 alt: image-alt
 category: Specialities
 price: tbd
