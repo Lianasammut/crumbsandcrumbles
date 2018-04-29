@@ -4,7 +4,7 @@ subtitle: Elegant and Dainty
 layout: default
 modal-id: lace-cupcakes
 date: 2018-04-29
-img: lace-cupcakes.jpg
+img: Lace-cupcakes.jpg
 thumbnail: lace-cupcakes-thumb.png
 alt: image-alt
 category: MothersDay
