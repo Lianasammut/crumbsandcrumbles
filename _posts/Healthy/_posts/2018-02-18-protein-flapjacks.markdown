@@ -1,5 +1,5 @@
 ---
-title: Peanut Butter Protein Flapjacks
+title: Peanut Protein Flapjacks
 subtitle: Protein in a bite
 layout: default
 modal-id: peanut-butter-protein-flapjacks
