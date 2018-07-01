@@ -1,6 +1,6 @@
 ---
-title: Gluten Free Apple and Coconut Cake
-subtitle: Something for our gluten intolerant friends
+title: Gluten Free Cake
+subtitle: Apple and Coconut cake 
 layout: default
 modal-id: gluten-free-apple-and-coconut-cake
 date: 2018-06-13
@@ -9,6 +9,6 @@ thumbnail: gluten-free-apple-and-coconut-cake-thumb.png
 alt: image-alt
 category: Healthy
 price: tbd
-description: A very tasty moist cake that can be enjoyed by all our gluten intolerant friends.
+description: A very tasty moist apple and coconut cake that can be enjoyed by all our gluten intolerant friends.
 
 ---
