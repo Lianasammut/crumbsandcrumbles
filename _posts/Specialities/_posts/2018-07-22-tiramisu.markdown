@@ -1,0 +1,14 @@
+---
+title: Tiramisu
+subtitle: A favourite coffee sweet
+layout: default
+modal-id: tiramisu
+date: 2018-07-22
+img: tiramisu.jpg
+thumbnail: tiramisu-thumb.png
+alt: image-alt
+category: Specialities
+price: tbd
+description: This tiramisu is absolute heaven! Light, fresh, creamy, fluffy and full of rich flavour!
+
+---

@@ -1,5 +1,5 @@
 ---
-title: Cinnamon Sugar Baked Donuts
+title: Cinnamon Sugar Donuts
 subtitle: The treat with a hole
 layout: default
 modal-id: cinnamon-sugar-donuts
