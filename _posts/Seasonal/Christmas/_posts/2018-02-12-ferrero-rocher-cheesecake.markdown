@@ -7,7 +7,7 @@ date: 2018-02-12
 img: ferrero-rocher-cheesecake.jpg
 thumbnail: ferrero-rocher-cheesecake-thumb.png
 alt: image-alt
-category: Specialities
+category: Christmas
 price: tbd
 description: A creamy and silky cheesecake with a delicious crunchy biscuit base topped with a hazelnut chocolate ganache and decorated with Ferrero Rocher.  
 
